@@ -1,0 +1,25 @@
+//Variables del systema de diseño:
+
+//paleta de colores:
+$color_ok: #C6D57E;
+$color_error: #D57E7E;
+$color_blanco: #FBF8F1;
+$color_secundario_claro: #F7ECDE;
+$color_secundario: #E9DAC1;
+$color_primario: #54BAB9;
+$color_primario_oscuro: #395B64;
+$color_negro: #2C3333;
+
+//Espaciado/ritmo:
+$espacio_chico: 5px;
+$espacio: 15px;
+$espacio_grande: 45px;
+
+$borde_ok_delgado: 1px solid $color_ok;
+$borde_ok_grueso: 3px solid $color_ok;
+$borde_error_delgado: 1px solid $color_error;
+$borde_error_grueso: 3px solid $color_error;
+
+//Tipografía:
+$fuente_titulos: 'Cinzel', serif;
+$fuente_contenido: 'Rosario', sans-serif;

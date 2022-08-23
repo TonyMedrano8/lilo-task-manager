@@ -1,0 +1,30 @@
+{
+  "name": "lilo-task-manager",
+  "version": "1.0.0",
+  "description": "Task manager webapp based on pomodoro, GTD and other systems to be more productive",
+  "main": "index.js",
+  "scripts": {
+    "styles": "sass --watch ./src/scss:build/css",
+    "tarea": "gulp tarea"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyMedrano8/lilo-task-manager.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Tony Medrano <tonymedrano.inm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TonyMedrano8/lilo-task-manager/issues"
+  },
+  "homepage": "https://github.com/TonyMedrano8/lilo-task-manager#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.4"
+  }
+}

@@ -1,0 +1,24 @@
+@use 'base/variables' as v;
+
+
+
+.footer {
+    background-color: v.$color_negro;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: v.$espacio v.$espacio_grande;
+}
+
+.titulo-nav {
+    color: v.$color_blanco;
+    text-align: center;
+    margin-bottom: v.$espacio;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

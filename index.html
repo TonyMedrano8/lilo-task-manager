@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="description" content="Esta es una aplicación que te permitirá ser más productivo al aplicar 
+  metodologias como la del pomodoro y GTD, a un sistema de administración de tareas">
+  <meta charset="UTF-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Lilo task manager</title>
+  <link rel="stylesheet" href="build/css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Rosario:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <button class="boton-circulo nueva-tarea"><img class="imagen" src="./assets/mas.png" alt="Agragar-tarea(lilo)" /></button>
+    <button class="boton-circulo seleccionar-lista"><img class="imagen" src="./assets/lista.png" alt="Mostrar-listas(lilo)" /></button>
+    <nav class="nav-principal">
+      <a class="nav-principal__enlace" href="#">inm8</a>
+      <a class="nav-principal__enlace" href="#">e-learn</a>
+      <a class="nav-principal__enlace" href="#">ayuda</a>
+    </nav>
+    <hgroup class="encabezado">
+      <h1 class="encabezado__titlulo">LILO</h1>
+      <p class="encabezado__titulo-secundario">task manager</p>
+    </hgroup>
+  </header>
+  
+  <main class="main">
+    <div class="tarjeta">
+      <div class="info-tarea">
+        <h2 class="titulo-tarea">Título de prueba</h2>
+        <p class="descripcion-tarea">Descripción de prueba, lerem ipsum.</p>
+        <div class="contenedor-pomodoro">
+          <p class="tiempo-tarea">Tiempo estimado para ralizar la tarea <span class="tareaTiempo">15:00</span></p>
+          <p class="prioridad-tarea">Urgencia: <span class="tareaPrioridad">1500</span></p>
+        </div>
+      </div>
+      <div class="acciones-tarea">
+        <button class="boton boton-iniciar">iniciar</button>
+        <button class="boton boton-dividir">dividir</button>
+        <button class="boton boton-borrar">borrar</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="titulo-nav">Contactame en:</p>
+    <nav class="nav-footer">
+      <a class="nav-footer__enlace" href="#">github</a>
+      <a class="nav-footer__enlace" href="#">instagram</a>
+      <a class="nav-footer__enlace" href="#">youtube</a>
+    </nav>
+  </footer>
+  
+  <script src="./src/script.js"></script>
+</body>
+</html>

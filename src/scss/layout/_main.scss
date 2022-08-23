@@ -1,0 +1,78 @@
+@use 'base/variables' as v;
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 120rem;
+    border-radius: v.$espacio_chico;
+    background-color: v.$color_secundario_claro;
+    margin: v.$espacio;
+    display: flex;
+}
+
+.info-tarea {
+    flex-grow: 5;
+    margin: v.$espacio;
+}
+
+.contenedor-pomodoro {
+    display: flex;
+    padding: v.$espacio_chico;
+    justify-content: space-around;
+}
+
+.tiempo-tarea, .prioridad-tarea {
+    font-size: 1.2rem;
+}
+
+.tareaPrioridad, .tareaTiempo {
+    font-size: 1.8rem;
+}
+
+.acciones-tarea {
+    padding: v.$espacio;
+    background-color: v.$color_secundario;
+    display: flex;
+    align-items: center;
+    border-radius: 0 v.$espacio_chico v.$espacio_chico 0;
+}
+
+.boton {
+    margin: 0 v.$espacio_chico;
+    background-color: v.$color_primario_oscuro;
+    text-transform: uppercase;
+    padding: v.$espacio_chico;
+    border-radius: v.$espacio_chico;
+    width: 12rem;
+    &:hover {
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.boton-iniciar {
+    color: v.$color_ok;
+    border: v.$borde_ok_delgado;
+    &:hover {
+        border: v.$borde_ok_grueso;
+    }
+}
+
+.boton-dividir {
+    color: v.$color_blanco;
+    border: 1px solid v.$color_blanco;
+    &:hover {
+        border: 3px solid v.$color_blanco;
+    }
+}
+
+.boton-borrar {
+    color: v.$color_error;
+    border: v.$borde_error_delgado;
+    &:hover {
+        border: v.$borde_error_grueso;
+    }
+}

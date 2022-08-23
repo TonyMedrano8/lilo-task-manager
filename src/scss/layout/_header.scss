@@ -1,0 +1,72 @@
+@use 'base/variables' as v;
+
+.boton-circulo {
+    width: v.$espacio_grande;
+    height: v.$espacio_grande;
+    border-radius: 50%;
+    position: absolute;
+    bottom: v.$espacio;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.imagen {
+    width: 3rem;
+}
+
+.nueva-tarea {
+    border: v.$borde_ok_delgado;
+    right: calc((v.$espacio * 2) + (v.$espacio_grande * 2));
+    &:hover {
+        border: v.$borde_ok_grueso;
+    }
+}
+
+.seleccionar-lista {
+    border: 1px solid v.$color_primario_oscuro;
+    right: calc(v.$espacio + v.$espacio_grande);
+    &:hover {
+        border: 3px solid v.$color_primario_oscuro;
+    }
+}
+
+.header {
+    background-color: v.$color_primario;
+    padding: v.$espacio_chico v.$espacio_grande;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-principal {
+    align-self: end;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-principal__enlace {
+    width: 10rem;
+    text-align: center;
+    margin: v.$espacio_chico;
+    border-radius: v.$espacio_chico;
+    padding: v.$espacio_chico v.$espacio;
+    &:hover {
+        background-color: v.$color_primario_oscuro;
+    }
+}
+
+.encabezado {
+    align-self: center;
+    text-align: center;
+    h1 {
+        padding-left: v.$espacio_grande;
+        letter-spacing: v.$espacio_grande;
+    }
+    p {
+        font-size: 2.4rem;
+    }
+}

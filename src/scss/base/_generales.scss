@@ -1,0 +1,41 @@
+@use 'variables' as v;
+//seteos generales:
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: v.$color_blanco;
+    
+    //Reglas de tipografía general:
+    font-family: v.$fuente_contenido;
+    color: v.$color_negro;
+    font-size: 1.6rem;
+}
+
+//Reglas de estilos del sistema de diseño:
+h1 {
+    font-size: 4.4rem;
+    font-family: v.$fuente_titulos;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 3.2rem;
+    font-family: v.$fuente_titulos;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: v.$color_blanco;
+}
+
+li {
+    list-style-type: none;
+}
